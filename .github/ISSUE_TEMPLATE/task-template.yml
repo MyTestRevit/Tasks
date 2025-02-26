@@ -1,8 +1,5 @@
 name: Новая задача
 description: Шаблон для создания новой задачи
-title: "Задача"
-assignees: []
-
 body:
   - type: dropdown
     id: case
