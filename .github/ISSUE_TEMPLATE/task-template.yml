@@ -1,6 +1,6 @@
 name: Новая задача
 description: Шаблон для создания новой задачи
-title: ""
+title: "Задача"
 assignees: []
 
 body:
