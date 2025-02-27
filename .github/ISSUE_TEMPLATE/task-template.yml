@@ -1,14 +1,14 @@
-name: Новая задача
-description: Шаблон для создания новой задачи
+name: Шаблон для создания новой задачи
 body:
   - type: dropdown
     id: case
     attributes:
-      label: "Кейс"
-      description: "Выберите категорию задачи"
+      label: "Выберите кейс"
       options:
         - "Validator"
         - "Worker"
+        - "Web"
+        - "Bot"
         - "Обновление панели"
     validations:
       required: true
@@ -18,7 +18,7 @@ body:
     attributes:
       label: "Описание задачи"
       description: "Подробно опишите, что нужно сделать"
-      placeholder: "Описание с деталями реализации"
+      placeholder: "Описание с деталями реализации, картинки, ссылки на другие задачи"
     validations:
       required: true
 
@@ -31,6 +31,7 @@ body:
         - "P0 - Срочно"
         - "P1 - Средне"
         - "P2 - Терпит"
+        - "Нет устанавливать"
     validations:
       required: true
 
